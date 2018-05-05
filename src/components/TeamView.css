@@ -1,0 +1,286 @@
+.table {
+    margin-bottom: 0 !important;
+}
+
+.table .fa {
+      -webkit-text-stroke: 3px !important;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #e6f5ff;
+}
+.borderless > tbody > tr > td {
+    border: none;
+}
+.diffColor {
+    color: #00997a;
+}
+td {
+    padding: 0 !important;
+}
+h6 {
+    margin: 0;
+    margin-bottom: 0 !important;
+}
+.head-text {
+    color: #aaa;
+    font-size: medium;
+    font-weight: 500;
+    text-align: initial;
+}
+.team-logo {
+    color: #aaa;
+    font-size: medium;
+    font-weight: 500;
+    text-align: right;
+}
+.headline {
+    padding-bottom: 16px;
+}
+.showAll> h6 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+} 
+@media (min-width: 320px) and (max-width: 768px) {
+    .main {
+        border: 1px solid #eee;
+        border-top-color: #00997a;
+        margin: 16px auto;
+        margin-bottom: 0 !important;
+        padding: 25px;
+        padding-bottom: 0 !important;
+        width: 90%;
+        height: 30%;
+    }
+    .colTeam1 {
+        padding: 10px;
+    }
+    .colTeam2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 150px;
+        height: 60px;
+        line-height: 1.2;
+        /*font-family: Droid sans;*/
+        font-size: 15px;
+    }
+    .head-text {
+        color: #aaa;
+        font-size: medium;
+        font-weight: 500;
+        text-align: initial;
+    }
+    .col-sm-8 {
+        width: 80% !important;
+    }
+    .plus {
+        padding: 10px;
+        color: #e6f5ff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;
+    }
+    .times {
+        padding: 10px;
+        color: #ffffff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;   
+    }
+    
+    .team-row > td:first-child{
+        white-space:nowrap;
+        width: 60px;
+    }
+    .team-row > td:last-child{
+        text-align: left;
+    }
+    .showAll {
+        background-color: #e6f5ff;
+        width: 90%;
+        height: 40px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+    .main {
+        border: 1px solid #eee;
+        border-top-color: #00997a;
+        margin: 16px auto;
+        margin-bottom: 0 !important;
+        padding: 25px;
+        padding-bottom: 0 !important;
+        width: 35%;
+        height: 30%;
+    }
+    .colTeam1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .colTeam2 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 10px;
+        width: 150px;
+        height: 72px;
+        line-height: 1.2;
+        /*font-family: Droid sans;*/
+        font-size: 15px;
+    }
+    .plus {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        color: #e6f5ff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;
+    }
+    .times {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        color: #ffffff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;   
+    }
+    
+    .team-row > td:first-child{
+        white-space:nowrap;
+        width: 60px;
+    }
+    .team-row > td:last-child{
+        text-align: left;
+    }
+    .showAll {
+        background-color: #e6f5ff;
+        width: 35%;
+        height: 40px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1900px) {
+    .main {
+        border: 1px solid #eee;
+        border-top-color: #00997a;
+        margin: 16px auto;
+        margin-bottom: 0 !important;
+        padding: 25px;
+        padding-bottom: 0 !important;
+        width: 35%;
+        height: 30%;
+    }
+    .colTeam1 {
+        padding: 10px;
+    }
+    .colTeam2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 150px;
+        height: 60px;
+        line-height: 1.2;
+        /*font-family: Droid sans;*/
+        font-size: 15px;
+    }
+    .plus {
+        padding: 10px;
+        color: #e6f5ff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;
+    }
+    .times {
+        padding: 10px;
+        color: #ffffff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;   
+    }
+    
+    .team-row > td:first-child{
+        white-space:nowrap;
+        width: 60px;
+    }
+    .team-row > td:last-child{
+        text-align: left;
+    }
+    .showAll {
+        background-color: #e6f5ff;
+        width: 35%;
+        height: 40px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1900px) {
+    .main {
+        border: 1px solid #eee;
+        border-top-color: #00997a;
+        margin: 16px auto;
+        margin-bottom: 0 !important;
+        padding: 25px;
+        padding-bottom: 0 !important;
+        width: 35%;
+        height: 30%;
+    }
+    .colTeam1 {
+        padding-left: 10px;
+        border-top-color: #00997a;
+        padding-right: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .colTeam2 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 10px;
+        width: 150px;
+        height: 72px;
+        line-height: 1.2;
+        /*font-family: Droid sans;*/
+        font-size: 15px;
+    }
+    .plus {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        color: #e6f5ff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;
+    }
+    .times {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        color: #ffffff;
+        font-size: 40px !important;
+        width: 60px !important;
+        cursor: pointer;   
+    }
+    
+    .team-row > td:first-child{
+        white-space:nowrap;
+        width: 60px;
+    }
+    .team-row > td:last-child{
+        text-align: left;
+    }    
+    .showAll {
+        background-color: #e6f5ff;
+        width: 35%;
+        height: 40px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+}
