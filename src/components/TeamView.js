@@ -98,7 +98,7 @@ class TeamView extends React.Component {
                 {this.state.showComponent ? 
                     <AddTeamMember addMemebrIntoTeam={this.callBackFromAddMemb}/> : null
                 }
-                <table className="table table-hover table-respionsive">
+                <table className="table table-hover table-respionsive borderless">
                     <tbody>
                         <tr onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} className="team-row">
                             <td><i style={divStyle} className="fa fa-plus-circle plus" onClick={this.callAddTeamMemb}></i></td>
