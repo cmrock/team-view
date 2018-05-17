@@ -17,10 +17,7 @@ class TeamView extends React.Component {
           allTeamMemebrs: teamMemberData,
           allExcedMember: excMembData
         };
-        this.callAddTeamMemb = this.callAddTeamMemb.bind(this);
         this.callBackFromAddMemb = this.callBackFromAddMemb.bind(this);
-        this.handleHoverOn = this.handleHoverOn.bind(this);
-        this.handleHoverOut = this.handleHoverOut.bind(this);
         this.removeMember = this.removeMember.bind(this);
         this.showAll = this.showAll.bind(this);
     }
@@ -37,9 +34,13 @@ class TeamView extends React.Component {
         if(data){
             // if number of teamMember more than 4 then push into excMembData [];
             if(teamMemberData.length>4){
-                excMembData.push(data);
+                if(excMembData.indexOf(data) === -1){
+                    excMembData.push(data);     
+                }
             }else{
-                teamMemberData.push(data);    
+                if(teamMemberData.indexOf(data) === -1){
+                    teamMemberData.push(data);    
+                }
             }
         }
         this.setState({
